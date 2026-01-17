@@ -366,9 +366,12 @@ else:
 
     st.plotly_chart(
         pitch_map(df_xg),
-        use_container_width=True
+        use_container_width=True,
+        key=f"pitch_xg_{len(df_xg)}"
     )
 
+
 end_section()
+
 
 
